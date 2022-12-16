@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Project3</title>
+    <link rel="stylesheet" type="text/css" href="./styles/style.css" media="screen" />
+</head>
+    
+<body>
+<div id="zone" style="background-image: url('assets/img/couchFP.jpg'); position:relative ">
+  <iframe style="display:none" id="bkrdAud" src="assets/audio/bkrd.mp3" allow="autoplay" loop>
+ </iframe>
+  <span id="tint"></span></div>
+<div id="screen">
+  <img id="homeIcon" class="button" src="assets/img/rem1.webp" style="width:30px; z-index:50000"></div>
+  <div id="menu1">
+     
+    <div id="Tshows" class="TVtile glow" style="background-image: url('assets/img/SHOW.jpg');">Shows
+        <div class = "hidethis hackPosition">
+          <div id="shows" class="TVoption menu2 more hackPosition">
+          
+            <div class="showlist preview">
+              <img id="show1" class="pic glow" src="assets/img/SH1.jpg"></img>
+              <video id = "showvid" class="final vid hidethis goFull" src="assets/vid/SH1V.mkv">
+              </video></div>
+            
+            <div class="showlist preview">
+              <img id="show2" class="pic" src="assets/img/SH2.JPG"></img>
+              <video id = "show2vid" class="final vid hidethis goFull hackPosition" src="assets/vid/SH2V.mkv">
+              </video></div>
+            
+            <div class="showlist preview">
+              <img id="show3" class="pic" src="assets/img/SH3.jpg"></img>
+              <video id = "show3vid" class="final vid hidethis goFull" src="assets/vid/SH3V.mkv">
+              </video></div>
+          </div>
+        </div>
+    </div>
+
+
+      <div id="Tmovies" class="TVtile glow" style="background-image: url('assets/img/MOV.jpg')">Movies
+        <div class = "hidethis hackPosition">
+          <div id="movies" class="TVoption menu2 more">
+         
+            <div class="movielist preview">
+              <img id="movie1" class="pic" src="assets/img/AN1.jfif"></img>
+              <video id = "movievid" class="final vid hidethis goFull"  src="assets/vid/randvid.mp4">
+              </video></div>
+            
+            <div class="movielist preview">
+              <img id="movie2" class="pic" src="assets/img/AN2.jfif"></img>
+              <video id = "movie2vid" class="final vid hidethis goFull"  src="assets/vid/randvid.mp4">
+              </video></div>
+            
+            <div class="movielist preview">
+              <img id="movie3" class="pic" src="assets/img/AN3.jfif"></img>
+              <video id = "movie3vid" class="final vid hidethis goFull"  src="assets/vid/randvid.mp4">
+              </video></div>
+          </div>
+        </div>
+      </div>
+
+
+      <div id="Tdocs" class="TVtile glow" style="background-image: url('assets/img/DOC.jpg');">Docs
+        <div class = "hidethis hackPosition">
+          <div id="docs" class="TVoption menu2 more">
+        
+            <div class="doclist preview">
+              <img id="doc1" class="pic" src="assets/img/DO1.jpg"></img>
+              <video id = "docvid" class="final vid hidethis goFull"  src="assets/vid/DO1V.mkv">
+              </video></div>
+            
+            <div class="doclist preview">
+              <img id="doc2" class="pic" src="assets/img/DO2.jpg"></img>
+              <video id = "doc2vid" class="final vid hidethis goFull"  src="assets/vid/DO2V.mkv">
+              </video></div>
+            
+            <div class="doclist preview">
+              <img id="doc3" class="pic" src="assets/img/DO3.JPG"></img>
+              <video id = "doc3vid" class="final vid hidethis goFull"  src="assets/vid/DO3V.mkv">
+              </video></div>
+          </div>
+        </div>
+      </div>
+
+
+      <div id="Tmusic" class="TVtile glow"  style="background-image: url('assets/img/MUS.jpg');">Music
+        <div class="hidethis hackPosition">
+          <div id="music" class="TVoption goFull final" style="background-image: url('assets/img/beach.gif'); background-size:100% 100%" >
+<!--           <iframe src="https://tunein.com/embed/player/s153438/" 
+          style="width:100%; height:100%;" class="menu2 TVoption" scrolling="no" frameborder="no">
+          </iframe> -->
+          <audio src="assets/audio/Soca - DJ Jel.mp3" style="background-image: url('assets/img/beach.gif');  background-size: 100% 100%;" class="menu2 TVoption"></audio>
+        </div>
+        </div>
+      </div>
+
+
+      <div id="Ttoon" class="TVtile glow" style="background-image: url('assets/img/TOON.jpg');">'Toons
+        <div class = "hidethis hackPosition">
+        <div id="toon" class="TVoption menu2 more">
+        
+            <div class="toonlist preview">
+              <img id="toon1" class="pic" src="assets/img/AN1.jfif"></img>
+              <video id = "toon1vid" class="final vid hidethis goFull"  src="assets/vid/AN1V.mkv#t=3.5">
+              </video></div>
+            
+            <div class="toonlist preview">
+              <img id="toon2" class="pic" src="assets/img/AN2.jfif"></img>
+              <video id = "toon2vid" class="final vid hidethis goFull"  src="assets/vid/AN2V.mkv">
+              </video></div>
+            
+            <div class="toonlist preview">
+              <img id="toon3" class="pic" src="assets/img/AN3.jfif"></img>
+              <video id = "toon3vid" class="final vid hidethis goFull"  src="assets/vid/AN3V.mkv">
+              </video></div>
+          </div>
+          </div>
+        </div>
+      
+
+      <div id="Tcomedy" class="TVtile glow" style="background-image: url('assets/img/SUC.jpg');">Stand-up
+        <div class = "hidethis hackPosition">
+          <div id="comedy" class="TVoption menu2 more">
+        
+            <div class="comedylist preview">
+              <img id="comedy1" class="pic" src="assets/img/AN1.jfif"></img>
+              <video id = "comedy1vid" class="final vid hidethis goFull"  src="assets/vid/randvid.mp4">
+              </video></div>
+            
+            <div class="comedylist preview">
+              <img id="comedy2" class="pic" src="assets/img/AN2.jfif"></img>
+              <video id = "comedy2vid" class="final vid hidethis goFull"  src="assets/vid/randvid.mp4">
+              </video></div>
+            
+            <div class="comedylist preview">
+              <img id="comedy3" class="pic" src="assets/img/AN3.jfif"></img>
+              <video id = "comedy3vid" class="final vid hidethis goFull"  src="assets/vid/randvid.mp4">
+              </video></div>
+          </div>
+        </div>
+      </div>
+
+
+    </div> 
+
+
+
+<div id="computer" style="color:darkgray;">
+  <button id="tab1" title="Help" class="tab site active" link="frame1">HELP</button>
+  <button id="tab2" title="Commons" class="tab site passive" link="frame2">CUNY</button>
+  <button id="tab3" title="Data" class="tab site passive" link="frame3">DATA</button>
+  <button id="tab4" title="Bing" class="tab site passive hidethis" link="frame4">BING</button>
+  <button id="tab5" title="Bing" class="tab site passive hidethis" link="frame5">BING</button>
+  <button id="tab6" title="Bing" class="tab site passive hidethis" link="frame6">BING</button>
+  <button id="tab7" title="Bing" class="tab site passive hidethis" link="frame7">BING</button>
+  <button id="tabplus" class="tab add" link="frame5">+</button>
+  <iframe id="frame1" class="showthis web" src="https://www.bing.com/search?q=why+isnt+my+code+working" frameborder="0"></iframe>
+  <iframe id="frame2" class="hidethis web" src="https://commons.gc.cuny.edu/" frameborder="0"></iframe>
+  <iframe id="frame3" class="hidethis web" src="https://opendata.cityofnewyork.us/" frameborder="0"></iframe>
+  <iframe id="frame4" class="hidethis web" src="https://bing.com/" frameborder="0"></iframe>
+  <iframe id="frame5" class="hidethis web" src="https://bing.com/" frameborder="0"></iframe>
+  <iframe id="frame6" class="hidethis web" src="https://bing.com/" frameborder="0"></iframe>
+  <iframe id="frame7" class="hidethis web" src="https://bing.com/" frameborder="0"></iframe>
+  
+</div>
+<!-- when clicked, web browser & tabs becomes visible-->
+</body>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/p5@1.4.2/lib/p5.js"></script>
+
+<script src="./scripts/main.js"></script>
+
+</html> 
