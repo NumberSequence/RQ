@@ -1,18 +1,23 @@
 
 :root {
-  --screentop: 1.3vh;
-  --screenleft: 30.7vw;
-  --screenwidth: 32.3vw;
-  --screenheight: 33.3vh;
+  --screentop: 5vh;
+  --screenleft: 29.5vw;
+  --screenwidth: 57vw;
+  --screenheight: 48.2vh;
   --tint: 0;
-  --laptopscale: scale(.6, .6);
-  --laptoptop:  50vh;
-  --laptopleft: 35vw;
+  --laptopscale: scale(.86, .8);
+  --laptoptop:  55vh;
+  --laptopleft: 38.5vw;
+}
+
+body {
+
+  overflow: hidden;
 }
 
 #zone {
- width: 80vw;
- height: 90vh;
+  height: 100vh;
+  width: 100vw;
  background-size: 100% 100%;
  background-repeat: no-repeat;
  display:flex;
@@ -144,7 +149,8 @@ left:var(--screenleft);
 
 .pic:hover, .TVtile.glow:hover{
   box-shadow: inset 0px 0px 4vw white;
-  font-size:1vw;
+  font-size:2vw;
+  color: lightslategray;
   cursor: pointer;
 }
 
@@ -259,9 +265,9 @@ h1 {
 }
 
 #computer {
-  width: 20vw;
+  width: 43vw;
   height: 20vh;
-  
+  background-color: rgba(0, 0, 0, 0.596);
   position:absolute;
   top:var(--laptoptop);
   left:var(--laptopleft);
@@ -269,6 +275,17 @@ h1 {
 }
 
 button{float:left;
+}
+
+#homeIcon{
+  background-color:rgba(87, 37, 37, 0.0);
+  position:absolute;
+  top:70vh;
+  left:88.5vw;
+  min-height:14vh;
+  min-width:8vw;
+
+  transform: skew(38deg, 0deg);;
 }
 
 iframe {

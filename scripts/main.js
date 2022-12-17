@@ -22,13 +22,13 @@ let tab = document.querySelectorAll("button.site");
 let tabcount =
   document.querySelectorAll("button.site").length -
   document.querySelectorAll("button.site.hidethis").length;
-alert(tabcount);
+//alert(tabcount);
 let tabplus = document.querySelector("#tabplus");
 
 tabplus.addEventListener("click", function () {
   if (tabcount < 7) {
     tabcount += 1;
-    alert(tabcount);
+    //alert(tabcount);
     document.querySelector("iframe.showthis").classList.add("hidethis");
     document.querySelector("iframe.showthis").classList.remove("showthis");
     document.querySelector("#frame" + tabcount).classList.remove("hidethis");
