@@ -1,17 +1,17 @@
 
 :root {
-  --screentop: 5vh;
+  --screentop: 4vh;
   --screenleft: 29.5vw;
-  --screenwidth: 57vw;
+  --screenwidth: 56.5vw;
   --screenheight: 48.2vh;
   --tint: 0;
-  --laptopscale: scale(.86, .8);
-  --laptoptop:  55vh;
-  --laptopleft: 38.5vw;
+  --laptopscale: scale(.87, .8);
+  --laptoptop:  54vh;
+  --laptopleft: 38.1vw;
 }
 
 body {
-
+  margin: 0px;
   overflow: hidden;
 }
 
@@ -271,7 +271,7 @@ h1 {
   position:absolute;
   top:var(--laptoptop);
   left:var(--laptopleft);
-
+  transform: skew(0deg, -.4deg)
 }
 
 button{float:left;
@@ -285,7 +285,10 @@ button{float:left;
   min-height:14vh;
   min-width:8vw;
 
-  transform: skew(38deg, 0deg);;
+  transform: skew(38deg, 0deg);
+}
+#homeIcon:hover {
+  cursor: pointer;
 }
 
 iframe {
