@@ -202,6 +202,12 @@ musictile.addEventListener("click", function () {
   mpthree.play();
 });
 
+alert(
+  "Welcome to my zone.\n\n" +
+    "Depending on the time of day, the room can get pretty dark.\n\n" +
+    "FYI: The remote control serves as the home button.\n\n" +
+    "Videos may take some to load. (Think of it as an added sense of realism...)"
+);
 //});
 /*
 function setup(){
