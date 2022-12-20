@@ -27,83 +27,44 @@ body {
 #tint {
   min-width:100%;
   min-height:100%;
- /* background-color:rgba(0, 0, 0, var(--tint));*/
   margin:none;
   padding:none;
 }
 
-/*
-#screen{
-  position:relative;
-  top: -89vh;
-  left: -3vw;
-  margin: 0 auto;
-}
-*/
-
 #menu1{
   width: var(--screenwidth);
-  /*min-height: 33vh;*/
   height: var(--screenheight);
   min-height: var(--screenheight);
-  /*display: flex;*/
   display:grid;
   grid-template-columns: repeat(3,auto);  
-  /*grid-template-rows: repeat(2,auto); */
   gap:calc(var(--screenwidth)/50) calc(var(--screenwidth)/25); 
-  /*margin: 0 auto;*/
   position: absolute;
   top:var(--screentop);
   left:var(--screenleft);
-  /*  
-  top: -89vh;
-  left: -3vw;
-*/
-top:var(--screentop);
-left:var(--screenleft);
-
-  /*
-  flex-direction: row;
-  flex-wrap:wrap;*/
+  top:var(--screentop);
+  left:var(--screenleft);
   justify-content:center;
   align-items:center;
   background-color:rgb(70, 70, 70);
 }
 
 .hackPosition{
-  /*position:relative;
-  top:0vh;
-  left: 0vw;*/
   position:absolute;
   top:0;
   left:0;
   justify-content:center;
   align-items:center;
-  /*
-  margin-top:4vh;
-  margin-left:3vw;
-*/
 }
 
 .menu2 {
   display:grid;
   background-color:rgb(70, 70, 70);
   grid-template-columns: repeat(3,auto);
-  /*9vw);*/ 
-  /*min-height:25vh;*/
- min-height:var(--screenheight);
- min-width:var(--screenwidth); 
- /*
-  grid-template-rows: repeat(2,9vh); 
-  */
+  min-height:var(--screenheight);
+  min-width:var(--screenwidth); 
   gap:calc(var(--screenwidth)/25); 
   margin: 0 auto;
   position:relative;
-  /*top: -89vh;
-  left: -3vw;*/
-  /*
-  flex-direction: row;
-  flex-wrap:wrap;*/
   justify-items:center;
   align-items:center;
 }
@@ -115,33 +76,14 @@ left:var(--screenleft);
   grid-template-columns: repeat(1,27vw); 
   height:25vh;
   z-index:22;
- /*
-  grid-template-rows: repeat(2,9vh); /* 
-  */
-  /*padding:5px;*/
   padding:none; 
   margin: 0 auto;
-  /*position:relative;*/
-  /*
-  top: -89vh;
-  left: -3vw;
-  */
-  /*
-  flex-direction: row;
-  flex-wrap:wrap;*/
   justify-content:center;
   align-items:center;
 }
-/*
-.TVtile {
-  height:calc(var(--screenheight)/2.5);
-  border-radius:3px;
-  font-size:0;
-}
-*/
+
  .pic{
   width:calc(var(--screenwidth)/4);
-  /*height:9vh;*/
   border-radius:3px;
   font-size:0;
 }
@@ -159,22 +101,6 @@ left:var(--screenleft);
 }
 
 
-
-/*
-.final {
-  width: 33vw;
-  height: 25vh;
-  justify-content:center;
-  align-items:center;
-  position: absolute; 
-  top: 1vh;
-  left: 0; 
-  right: 0; 
-  margin-left: auto; 
-  margin-right: auto; 
-background-color:red;
-}
-*/
 .showthis {display:inline-block;}
 
 .hidethis {display:none;}
@@ -184,12 +110,10 @@ background-color:red;
   left: 30vw;
 }
 
-
-
 #menu1 .TVtile{
   background-color:pink;
-  /*margin-top:10vh;*/
 }
+
 #menu1 .TVtile:hover{
   background-color:black;
 }
@@ -199,9 +123,7 @@ background-color:red;
   border-radius:3px;
   font-size:0;
   width:calc(var(--screenwidth)/4);
- /* min-width: 8vw;*/
    background: black;
-  /*margin: 1vw;*/
   color:black;
   -webkit-text-stroke: .05vw;
   -webkit-text-stroke-color: blue;
@@ -225,12 +147,13 @@ video::-webkit-media-controls-panel {
   background-image: none !important;
   filter: brightness(0.4);
 }
+
 .video-element {
   width: 100%;
   height: 100%;
-  
   object-fit: cover;
 }
+
 video {   position: absolute;
   top: 0;
   left: 0;
@@ -244,21 +167,6 @@ video {   position: absolute;
     cursor: pointer;
   }
 
-/*
-.menu.more {
-  width: 33vw;
-  height: 33vh;
-  display: flex;
-  margin: 0 auto;
-  position:relative;
-  top: -89vh;
-  left: -3vw;
-  flex-direction: row;
-  flex-wrap:wrap;
-  justify-content:center;
-  align-items:center;
-}
-*/
 h1 {
   color: red;
   font-family: monospace;
@@ -287,14 +195,15 @@ button{float:left;
 
   transform: skew(38deg, 0deg);
 }
+
 #homeIcon:hover {
   cursor: pointer;
 }
 
 iframe {
   background-color:gray;
-width:50vw;
-height:50vh;
+  width:50vw;
+  height:50vh;
   -moz-transform: var(--laptopscale); 
   -webkit-transform: var(--laptopscale); 
   -o-transform: var(--laptopscale);
@@ -312,9 +221,11 @@ height:50vh;
 .active{
   color:black;
 }
+
 button{
   border-radius: .3vw .3vw 0 0;
 }
+
 button:hover {
   cursor: pointer;
 }
